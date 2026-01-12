@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 # 設定
-CSV_FILE = "image-candidates.csv"
+CSV_FILE = "image-candidates_2.csv"
 OUTPUT_DIR = "downloads"
 REPORT_FILE = "download_report.csv"
 DELAY_SECONDS = 1.5  # リクエスト間の待機時間（サーバー負荷軽減）
