@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ひらがなをまなぼう</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ナビゲーション（横スクロール） -->
+    <nav class="hiragana-nav">
+        <div class="nav-scroll" id="navScroll">
+            <!-- JSで生成 -->
+        </div>
+    </nav>
+
+    <!-- メインエリア -->
+    <main class="main-content">
+        <!-- 中央のひらがな -->
+        <div class="center-hiragana" id="centerHiragana">え</div>
+        
+        <!-- イラストカード -->
+        <div class="cards-container" id="cardsContainer">
+            <!-- JSで生成 -->
+        </div>
+    </main>
+
+    <!-- 進捗表示 -->
+    <div class="progress-bar" id="progressBar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <script src="data/words.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
